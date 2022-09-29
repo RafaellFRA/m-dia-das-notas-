@@ -1,0 +1,38 @@
+algoritmo "média das notas"
+
+Var
+// Seção de Declarações das variáveis 
+n1,n2,n3,n4:real
+media:real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreval("digite a primeira nota")
+leia(n1)
+escreval("digite a segunda nota")
+leia(n2)
+escreval("digite a terceira nota")
+leia(n3)
+escreval("digite a quarta nota")
+leia(n4)
+media<-(n1+n2+n3+n4)/4
+escreval("a média é: ",media)
+
+se media =10 entao
+escreval("parabens arrombado")
+
+se media >=6 entao
+escreval ("aprovado")
+senao
+escreval("reprovado")
+se media "10" entao
+escreval("prabéns aluno")
+
+
+
+fimse
+fimse
+
+
+
+Fimalgoritmo
